@@ -8,3 +8,5 @@ CREATE TABLE prayer_times (
     isha time NOT NULL,
     PRIMARY KEY (city)
 );
+INSERT INTO prayer_times (city, fajr, sunrise, dhuhr, asr, maghrib, isha)
+VALUES ('Istanbul', '05:00', '06:00', '12:00', '15:00', '18:00', '19:00');
